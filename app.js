@@ -150,4 +150,10 @@ console.log(`!isPresent || isPresent = ${!isPresent || isPresent}`);
 node = document.createElement("li");
 node.innerText = `!isPresent || isPresent = ${!isPresent || isPresent}`;
 document.getElementById("exercise-3").appendChild(node);
+
+console.log(`0 == false = ${0 == false}`);
+node = document.createElement("li");
+node.innerText = `0 == false = ${0 == false}`;
+document.getElementById("exercise-3").appendChild(node);
+
 // YOUR CODE HERE
