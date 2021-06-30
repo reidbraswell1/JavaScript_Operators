@@ -161,9 +161,9 @@ Use the code above to test and print the results.
   node.innerText = `(!isPresent) = ${!isPresent}`;
   document.getElementById("exercise-3").appendChild(node);
 
-  console.log(`(eleven == str2 && a >= str) = ${"eleven" == str2 && a >= str}`);
+  console.log(`("eleven" == str2 && a >= str) = ${"eleven" == str2 && a >= str}`);
   node = document.createElement("li");
-  node.innerText = `(eleven == str2 && a >= str) = ${"eleven" == str2 && a >= str}`;
+  node.innerText = `("eleven" == str2 && a >= str) = ${"eleven" == str2 && a >= str}`;
   document.getElementById("exercise-3").appendChild(node);
 
   console.log(`(!isPresent || isPresent) = ${!isPresent || isPresent}`);
